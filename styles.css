@@ -1,0 +1,98 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif; /* Clean, legible font */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Dark grey text for readability */
+}
+
+/* Header styles */
+header {
+    background-color: #343a40; /* Dark grey background for header */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #007bff; /* Blue underline for header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation styles */
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff; /* Professional blue color */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Section styles */
+section {
+    background-color: #ffffff; /* White background for sections */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px; /* Centered content */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+section h2 {
+    color: #343a40; /* Dark grey for section headers */
+    border-bottom: 3px solid #007bff; /* Blue underline for section headers */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* About section styles */
+.about {
+    /* Additional styles for About section, if needed */
+}
+
+/* Skills section styles */
+.skills {
+    /* Additional styles for Skills section, if needed */
+}
+
+/* Projects section styles */
+.projects {
+    /* Additional styles for Projects section, if needed */
+}
+
+/* Contact section styles */
+.contact {
+    /* Additional styles for Contact section, if needed */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}
