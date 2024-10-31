@@ -1,0 +1,74 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #7e0ec9;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .mission {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* About Me Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 100px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
+    margin: 10px;
+}
+
+.about p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    line-height: 1.25;
+}
+
+/* Skills and Contact Sections */
+.skills, .contact {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #7e0ec9;
+}
+
+a {
+    color: #7e0ec9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
