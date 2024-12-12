@@ -1,19 +1,18 @@
-/* General body styles */
+/* General Styling */
 body {
-    font-family: 'Arial', sans-serif; /* Clean, legible font */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa; /* Light background color */
-    color: #333; /* Dark grey text for readability */
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
 }
 
-/* Header styles */
 header {
-    background-color: #343a40; /* Dark grey background for header */
-    color: #ffffff; /* White text color */
+    background-color: #7e0ec9;
+    color: #fff;
     padding: 20px;
-    text-align: center;
-    border-bottom: 4px solid #007bff; /* Blue underline for header */
 }
 
 header h1 {
@@ -21,84 +20,55 @@ header h1 {
     font-size: 2.5em;
 }
 
-/* Navigation styles */
-nav {
-    margin: 20px 0;
+header .mission {
+    font-size: 1.2em;
+    margin-top: 10px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #007bff; /* Professional blue color */
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #0056b3; /* Darker blue on hover */
-}
-
-/* Section styles */
-section {
-    background-color: #ffffff; /* White background for sections */
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 900px; /* Centered content */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-section h2 {
-    color: #343a40; /* Dark grey for section headers */
-    border-bottom: 3px solid #007bff; /* Blue underline for section headers */
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    font-size: 1.8em;
-}
-
-/* About section styles */
+/* About Me Section */
 .about {
-    /* Additional styles for About section, if needed */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 100px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
 }
 
-/* Skills section styles */
-.skills {
-    /* Additional styles for Skills section, if needed */
+.about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
+    margin: 10px;
 }
 
-/* Projects section styles */
-.projects {
-    /* Additional styles for Projects section, if needed */
+.about p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    line-height: 1.25;
 }
 
-/* Contact section styles */
-.contact {
-    /* Additional styles for Contact section, if needed */
+/* Skills and Contact Sections */
+.skills, .contact {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
+h2 {
+    color: #7e0ec9;
 }
 
+a {
+    color: #7e0ec9;
+    text-decoration: none;
+}
 
-    header h1 {
-        font-size: 2em;
-    }
+a:hover {
+    text-decoration: underline;
 }
